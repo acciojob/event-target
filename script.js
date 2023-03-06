@@ -1,19 +1,19 @@
 class EventTarget {
-    // Write your code here.
-  
-    addEventListener(name, callback) {
-      // Write your code here.
+    constructor() {
+      this.listeners = new Map();
     }
   
-    removeEventListener(name, callback) {
-      // Write your code here.
+    addEventListener(event, callback) {
+      
     }
   
-    dispatchEvent(name) {
-      // Write your code here.
+    removeEventListener(event, callback) {
+      
     }
+  
+    dispatchEvent(event) {
+    
+    }
+    
   }
-  
-  // Do not edit the line below.
-  exports.EventTarget = EventTarget;
   
